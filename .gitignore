@@ -1,0 +1,14 @@
+# macOS
+*.DS_Store
+
+# Python/Jupyter
+*.ipynb_checkpoints
+__pycache__/
+
+# Artifacts
+*.zip
+
+# Final project
+data/**/
+trained_models/
+wget-log
