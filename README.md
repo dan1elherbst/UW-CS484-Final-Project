@@ -16,10 +16,10 @@ by Clément Godard, Oisin Mac Aodha, and Gabriel J. Brostow
 (https://arxiv.org/pdf/1609.03677.pdf).
 
 While the code is more or less exactly what I submitted as my final project, I 
-still had some Colab resources left after the submission and decided to retrain the model
+still had some Colab time left after the submission and decided to retrain the model
 on a bit more data until I went out of resources. Indeed, these results, while not being 
-as good as the ones presented in the original paper, are quite good (slightly better than 
-in my actual submission) and the final trained model also does a reasonable job at 
+quite as good as the ones presented in the original paper, are remarkable considering my
+computing and time constraints, and the final trained model also does a reasonable job at 
 generalizing to unseen data.
 
 ## Introduction
@@ -67,7 +67,7 @@ combining explanations with implementation.
 well as the model (`model.py`) and its loss functions (`losses.py`).
 - `download_data.sh` is a script to download the training data I used and transforming it 
 into the format needed for data loading.
-- `download_model.py` can be used to download my trained models in order to experiment 
+- `download_models.sh` can be used to download my trained models in order to experiment 
 with the results or use the trained models for own evaluations.
 - `environment.yml` defines all external Python libraries needed for this project.
 - `main.ipynb` is the main file containing all explanations, the training code, as well as
